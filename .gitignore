@@ -1,0 +1,43 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / API keys
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Whisper / ML cache
+*.pt
+*.pth
+*.bin
+
+# Generated audio/video files
+downloads/
+*.wav
+*.mp3
+*.mp4
+*.webm
+*.m4a
+
+# Chroma / vector database
+vector_db/
+chroma_db/
+
+# Temporary files
+*.tmp
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
